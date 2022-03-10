@@ -20,6 +20,7 @@ public class NextGreatElement {
             map1.remove(1);
             String a = "abc";
             System.out.println("hello,change");
+            System.out.println("hot-fix remove");
         }
         return res;
     }
