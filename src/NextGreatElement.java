@@ -19,6 +19,7 @@ public class NextGreatElement {
             HashMap<Integer,Integer> map1 = new HashMap<>();
             map1.remove(1);
             String a = "abc";
+            System.out.println("hello,change");
         }
         return res;
     }
