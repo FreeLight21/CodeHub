@@ -21,6 +21,7 @@ public class NextGreatElement {
             System.out.println("hello,change");
             System.out.println("hot-fix remove");
             System.out.println("xiugai ");
+            System.out.println("test");
         }
         return res;
     }
