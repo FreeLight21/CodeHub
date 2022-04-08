@@ -67,6 +67,7 @@ public class OpenLock {
             ch[j] = '9';
         }else{
             ch[j] -= 1;
+
         }
         return new String(ch);
     }

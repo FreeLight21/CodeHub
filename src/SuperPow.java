@@ -9,6 +9,7 @@ public class SuperPow {
         int count = s.nextInt();
         System.out.println(count);
         PriorityQueue<Integer> pq = new PriorityQueue<>();
+        Scanner sc = new Scanner(System.in);
         Stack<Integer> stack = new Stack<>();
         pq.add(1);
     }
@@ -22,7 +23,6 @@ public class SuperPow {
         int part1 = mypow(a,last);
         int part2 = mypow(superp(a,list),10);
         return part1*part2;
-
     }
 
     public static int mypow(int a, int k){
